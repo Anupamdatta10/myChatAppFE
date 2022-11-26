@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myChatAppFE/static/css/main.51ca5465.chunk.css",
-    "main.js": "/myChatAppFE/static/js/main.cfba2be4.chunk.js",
-    "main.js.map": "/myChatAppFE/static/js/main.cfba2be4.chunk.js.map",
+    "main.js": "/myChatAppFE/static/js/main.284b74e2.chunk.js",
+    "main.js.map": "/myChatAppFE/static/js/main.284b74e2.chunk.js.map",
     "runtime-main.js": "/myChatAppFE/static/js/runtime-main.697d2800.js",
     "runtime-main.js.map": "/myChatAppFE/static/js/runtime-main.697d2800.js.map",
     "static/js/2.c3d35428.chunk.js": "/myChatAppFE/static/js/2.c3d35428.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.697d2800.js",
     "static/js/2.c3d35428.chunk.js",
     "static/css/main.51ca5465.chunk.css",
-    "static/js/main.cfba2be4.chunk.js"
+    "static/js/main.284b74e2.chunk.js"
   ]
 }
