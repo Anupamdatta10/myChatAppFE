@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Anupamdatta10/myChatAppFE/static/css/main.51ca5465.chunk.css",
-    "main.js": "/Anupamdatta10/myChatAppFE/static/js/main.cfba2be4.chunk.js",
-    "main.js.map": "/Anupamdatta10/myChatAppFE/static/js/main.cfba2be4.chunk.js.map",
-    "runtime-main.js": "/Anupamdatta10/myChatAppFE/static/js/runtime-main.32915d30.js",
-    "runtime-main.js.map": "/Anupamdatta10/myChatAppFE/static/js/runtime-main.32915d30.js.map",
-    "static/js/2.c3d35428.chunk.js": "/Anupamdatta10/myChatAppFE/static/js/2.c3d35428.chunk.js",
-    "static/js/2.c3d35428.chunk.js.map": "/Anupamdatta10/myChatAppFE/static/js/2.c3d35428.chunk.js.map",
-    "static/js/3.c8987b36.chunk.js": "/Anupamdatta10/myChatAppFE/static/js/3.c8987b36.chunk.js",
-    "static/js/3.c8987b36.chunk.js.map": "/Anupamdatta10/myChatAppFE/static/js/3.c8987b36.chunk.js.map",
-    "index.html": "/Anupamdatta10/myChatAppFE/index.html",
-    "static/css/main.51ca5465.chunk.css.map": "/Anupamdatta10/myChatAppFE/static/css/main.51ca5465.chunk.css.map",
-    "static/js/2.c3d35428.chunk.js.LICENSE.txt": "/Anupamdatta10/myChatAppFE/static/js/2.c3d35428.chunk.js.LICENSE.txt"
+    "main.css": "/myChatAppFE/static/css/main.51ca5465.chunk.css",
+    "main.js": "/myChatAppFE/static/js/main.cfba2be4.chunk.js",
+    "main.js.map": "/myChatAppFE/static/js/main.cfba2be4.chunk.js.map",
+    "runtime-main.js": "/myChatAppFE/static/js/runtime-main.697d2800.js",
+    "runtime-main.js.map": "/myChatAppFE/static/js/runtime-main.697d2800.js.map",
+    "static/js/2.c3d35428.chunk.js": "/myChatAppFE/static/js/2.c3d35428.chunk.js",
+    "static/js/2.c3d35428.chunk.js.map": "/myChatAppFE/static/js/2.c3d35428.chunk.js.map",
+    "static/js/3.c8987b36.chunk.js": "/myChatAppFE/static/js/3.c8987b36.chunk.js",
+    "static/js/3.c8987b36.chunk.js.map": "/myChatAppFE/static/js/3.c8987b36.chunk.js.map",
+    "index.html": "/myChatAppFE/index.html",
+    "static/css/main.51ca5465.chunk.css.map": "/myChatAppFE/static/css/main.51ca5465.chunk.css.map",
+    "static/js/2.c3d35428.chunk.js.LICENSE.txt": "/myChatAppFE/static/js/2.c3d35428.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.32915d30.js",
+    "static/js/runtime-main.697d2800.js",
     "static/js/2.c3d35428.chunk.js",
     "static/css/main.51ca5465.chunk.css",
     "static/js/main.cfba2be4.chunk.js"
