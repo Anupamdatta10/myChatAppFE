@@ -1,17 +1,22 @@
 import React, { useEffect, useState ,useRef} from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
-
+import NotificationSound from '../notification-sound.mp3'
 function Chat({ socket, username, room }) {
   const [currentMessage, setCurrentMessage] = useState("");
   const [messageList, setMessageList] = useState([]);
   const [file, setFile] = useState(false);
   const [fileType, setFileType] = useState("");
+  const audioPlayer = useRef(null);
   const handelFile = (e) => {
     console.log(e.target.files[0])
     getBase64(e.target.files[0])
     setFileType(e.target.files[0])
     setFile(true)
   }
+  function playAudio() {
+    audioPlayer.current.play();
+  }
+
   function getBase64(file) {
     var reader = new FileReader();
     reader.readAsDataURL(file);
@@ -50,6 +55,7 @@ function Chat({ socket, username, room }) {
   useEffect(() => {
     socket.on("receive_message", (data) => {
       setMessageList((list) => [...list, data]);
+      playAudio()
     });
     socket.on("user_join", (data) => {
       setMessageList((list) => [...list, data]);
@@ -109,6 +115,7 @@ function Chat({ socket, username, room }) {
         <button onClick={() => { sendMessage() }}>&#9658;</button>
       </div>
       <input type="file" onChange={(e) => { handelFile(e) }} />
+        <audio ref={audioPlayer} src={NotificationSound} />
     </div>
   );
 }
